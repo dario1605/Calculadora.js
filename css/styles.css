@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;;
+}
+
+body{
+    background-color: #611e42;
+    background-image: linear-gradient(270deg, #611e42 0%, #280b0b 24%, #b03475 49%, #280b0b 75%, #611e42 100%);
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.604);
+    text-align: center;
+    font-size: 7rem;
+    margin-top: 2rem;
+    border: 4px solid beige;
+    border-radius: 1rem;
+    background-color: #3459b0;
+    background-image: linear-gradient(195deg, #3459b0 0%, #9d1e81 19%, #3496b0 39%, #9d1e81 60%, #3459b0 80%);
+
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    height: 50rem;
+    padding: 15px;
+    border: solid 4px beige;
+    border-radius: 1rem;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #6284FF 50%, #00ff67 100%);
+
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2rem;
+}
+
+.calculadora-display{
+    margin-bottom: 1rem;
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    background-color: gold;
+    border: solid 2px black;
+    border-radius: 1rem;
+    overflow-x: auto;
+}
+
+.teclado-de-calculadora{
+    display: flex;
+    width: 100%;
+}
+
+.numeros-de-teclado{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.boton-de-teclado{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: solid 2px black;
+    border-radius: 1rem;
+}
+
+.boton-de-teclado:hover {
+    filter: brightness(70%);
+    transition: filter .25s;
+}
+
+.boton-azul-de-teclado{
+    width: 25%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #6284FF 50%, #0028ff 100%);
+
+}
+.boton-azul-de-teclado:hover {
+    filter: brightness(70%);
+    transition: filter .25s;
+}
+
+.boton-c-de-teclado{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.boton-c-de-teclado:hover {
+    filter: brightness(70%);
+    transition: filter .25s;
+}
+
+.boton-cero-de-teclado{
+    background-color: aliceblue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.boton-cero-de-teclado:hover {
+    filter: brightness(70%);
+    transition: filter .25s;
+}
+
+.boton-verde-de-teclado{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #62ff8b 50%, #1e6130 100%);
+
+}
+
+.boton-verde-de-teclado:hover {
+    filter: brightness(70%);
+    transition: filter .25s;
+}
